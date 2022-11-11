@@ -1,6 +1,6 @@
 package com.abdelrahman.rafaat.firstjetpackcomposeapp.gym
 
-val listOfGyms = listOf<Gym>(
+val listOfGyms = listOf(
     Gym("Anchorage Gym", "156 Michael Ct #4, Anchorage, Alaska 99504, USA"),
     Gym("Ketchikan Gym", "2417 Tongass Ave #111, Ketchikan, Alaska 99901, USA"),
     Gym("Anchorage Gym", "4821 Ridge Top Cir, Anchorage, Alaska 99508, USA"),
