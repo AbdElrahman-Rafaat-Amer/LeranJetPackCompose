@@ -1,3 +1,12 @@
 package com.abdelrahman.rafaat.firstjetpackcomposeapp.gym
 
-data class Gym(val id: Int, val name: String, val address: String, var isFavorite: Boolean = false)
+import com.google.gson.annotations.SerializedName
+
+data class Gym(
+    val id: Int,
+    @SerializedName("gym_name")
+    val name: String,
+    @SerializedName("gym_location")
+    val location : String,
+    var isFavorite: Boolean = false
+)
